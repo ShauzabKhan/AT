@@ -1,2 +1,2 @@
 # AT
-Test Automation
+Test Automation code for Selenium based automated testing

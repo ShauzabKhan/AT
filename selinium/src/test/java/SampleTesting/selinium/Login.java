@@ -21,6 +21,7 @@ import cucumber.runtime.java.guice.ScenarioScoped;
 import init.MyAppTestEnvironment;
 //Git changes
 //Test 111
+//Changes modified
 @ScenarioScoped
 public class Login extends BrowserImpl {
 	public Configuration configuration = null;

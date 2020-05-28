@@ -4,4 +4,4 @@ Scenario: User Login
  And click on menu
  And clik on casemanager
  Then open Myworklist 
- And submit the form where Firstname is "mahaboob" and Lastname is "basha" and Age is "27" 
+ And submit the form  

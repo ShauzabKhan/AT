@@ -100,12 +100,39 @@ public class Login extends BrowserImpl {
 		WebElement myWork = driver.findElement(By.xpath("//span[@class='menu-item-title' and text()='My Work']"));
 		myWork.click();
          Thread.sleep(3000);
+         driver.switchTo().frame("PegaGadget1Ifr");
 		WebElement workItem = driver.findElement(By.xpath("(//span[@class='case_description'])[1]"));
 		workItem.click();
+		driver.switchTo().parentFrame();
+	
 
 	}
+	
+	
+@Given("submit the form")
+	
+	public void submit_the_form() throws Exception
+	
+	{
+		
+	Thread.sleep(2000);
+	driver.switchTo().frame("PegaGadget2Ifr");
+	//driver.switchTo().parentFrame();
+		WebElement firstName = driver.findElement(By.xpath("//input[@name='$PpyWorkPage$pFirstName']"));
+		firstName.click();
+		firstName.sendKeys("mahaboob");
+		WebElement lastName = driver.findElement(By.xpath("//input[@name='$PpyWorkPage$pLastName']"));
+		lastName.sendKeys("basha");
+		WebElement Age = driver.findElement(By.xpath("//input[@name='$PpyWorkPage$pAge']"));
+		Age.sendKeys("27");
+		// WebElement country =
+		// driver.findElement(By.xpath("//input[@name='$PpyWorkPage$pCountry']"));
+		WebElement submitButton = driver.findElement(By.xpath("//Button[text()='Submit']"));
+		submitButton.click();
+	}
+	
 
-	@Given("submit the form where Firstname is {string} and Lastname is {string} and Age is {string}")
+/*	@Given("submit the form where Firstname is {string} and Lastname is {string} and Age is {string}")
 	public void submit_the_form_where_Firstname_is_and_Lastname_is_and_Age_is(String firstname, String lastname,
 			String age) {
 		WebElement firstName = driver.findElement(By.xpath("//input[@name='$PpyWorkPage$pFirstName']"));
@@ -125,5 +152,5 @@ public class Login extends BrowserImpl {
 		// input[@name='$PpyWorkPage$pCountry']
 		// Button[text()='Submit'
 
-	}
+	}*/
 }

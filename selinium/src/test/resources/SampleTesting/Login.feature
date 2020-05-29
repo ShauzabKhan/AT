@@ -1,8 +1,7 @@
-
 Feature: User Login
 Scenario: User Login 
- Given A User logs in with user credentials "mahaboob.basha@processthreesixty.com" and "rules"
+ Given A User logs in with user credentials "ecar@admin.com" and "rules"
  And click on menu
  And clik on casemanager
  Then open Myworklist 
- And submit the form where Firstname is "mahaboob" and Lastname is "basha" and Age is "27" 
+ And submit the form  

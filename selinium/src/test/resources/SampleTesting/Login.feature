@@ -4,4 +4,4 @@ Scenario: User Login
  And click on menu
  And clik on casemanager
  Then open Myworklist 
- And submit the form  
+ And submit the form

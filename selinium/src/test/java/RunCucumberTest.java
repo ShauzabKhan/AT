@@ -3,7 +3,7 @@ import org.testng.annotations.DataProvider;
 import cucumber.api.CucumberOptions;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 
-// this is a cucumber test runner
+// this is a cucumber testrunner
 @CucumberOptions()
 public class RunCucumberTest extends AbstractTestNGCucumberTests {
 	@Override

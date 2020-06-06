@@ -7,6 +7,8 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Test;
+import org.testng.Assert;
 
 public class InvokeURL {
 	
@@ -16,8 +18,8 @@ public class InvokeURL {
 	
 	JavascriptExecutor jse;
 	
-	
-	public void invokeBrowser() {
+	@Test
+	public void invokeBrowser() throws InterruptedException{
 		
 //		System.setProperty("webdriver.chrome.driver", "/Users/shauzab/Documents/eclipse-workspace/chromedriver");
 		
@@ -33,6 +35,7 @@ public class InvokeURL {
 		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 		driver.get("https://hra-iras2-dt1.pegacloud.net/prweb");
 		
+		searchElement();
 		
 	}
 	
@@ -56,6 +59,9 @@ public class InvokeURL {
 		String wlAssignment = "/html/body/div[4]/main/div/div/div/div/div[2]/form/div[3]/div/section/div/div/div/div/div/div/div/div/div/div[1]/div/div/div/div/div/div/div[2]/table/tbody/tr/td[2]/div/table/tbody/tr[2]/td[2]/div/span/a";
 		
 		driver.findElement(By.xpath(wlAssignment)).click();
+		
+		Thread.sleep(2000);
+
 		
 		String operatorIcon = "(//i[@data-test-id='px-opr-image-ctrl'])[1]";
 				
@@ -86,8 +92,13 @@ public class InvokeURL {
 		
 		//jse.executeScript("scroll(0,400)");
 		
-		Thread.sleep(5000);
+		Thread.sleep(2000);
+		
+		Assert.assertEquals(true, true);
+		
 		driver.quit();
+		
+		
 		
 	}
 	
@@ -97,7 +108,7 @@ public class InvokeURL {
 		InvokeURL iu = new InvokeURL();
 		iu.invokeBrowser();
 		
-		iu.searchElement();
+		//iu.searchElement();
 	}
 	
 

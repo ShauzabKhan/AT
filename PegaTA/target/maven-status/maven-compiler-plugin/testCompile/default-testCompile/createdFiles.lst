@@ -1,0 +1,9 @@
+RunCucumberTest.class
+com/pega/test/pega_sample_testframework/MyAppTestEnvironment.class
+stepdefs/SpacesStepDefs.class
+stepdefs/ForecastStepDefs.class
+stepdefs/Space_PegaSocialGroupStepDefs.class
+stepdefs/SalesAutomationStepDefs.class
+stepdefs/TestStepDefs.class
+com/pega/test/pega_sample_testframework/MyAppObjectsBean.class
+com/pega/test/pega_sample_testframework/MyAppBrowser.class

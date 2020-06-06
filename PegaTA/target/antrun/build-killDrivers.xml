@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="killDrivers"  >
+<target name="killDrivers">
+  <echo></echo>
+  <exec spawn="true" dir="/Users/shauzab/Documents/eclipse-workspace/PegaTA" executable="cmd" osfamily="windows">
+    <arg line="/c taskkill /F /IM MicrosoftWebDriver.exe"/>
+  </exec>
+  <exec spawn="true" dir="/Users/shauzab/Documents/eclipse-workspace/PegaTA" executable="cmd" osfamily="windows">
+    <arg line="/c taskkill /F /IM chromedriver.exe"/>
+  </exec>
+  <exec spawn="true" dir="/Users/shauzab/Documents/eclipse-workspace/PegaTA" executable="bash" osfamily="unix">
+    <arg line="killall chromedriver"/>
+  </exec>
+</target>
+</project>

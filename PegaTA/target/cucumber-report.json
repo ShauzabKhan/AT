@@ -1,0 +1,139 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-06T14:32:29.209Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2644101094,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyAppTestEnvironment.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Open assignment scenario",
+        "description": "",
+        "id": "creates-and-submit-application;open-assignment-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 3537449335,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyAppTestEnvironment.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2310679428,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "A User logs in with \"research.user1\" and \"hrarules\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "research.user1",
+                  "offset": 21
+                },
+                {
+                  "val": "hrarules",
+                  "offset": 42
+                }
+              ],
+              "location": "MyAppBrowser.login(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3854640,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User creates a case",
+            "match": {
+              "location": "CreateCase.user_creates_a_case()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6135735,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User fills out the details",
+            "match": {
+              "location": "FillCaseDetails.user_fills_out_the_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3154022,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User submits",
+            "match": {
+              "location": "SubmitCase.user_submits()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1847786,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Successful submission message is displayed",
+            "match": {
+              "location": "SubmitCase.successful_submission_message_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 365901426,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User logs off from portal",
+            "match": {
+              "location": "MyAppBrowser.user_logs_off_from_portal()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TC-02"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Creates and submit application",
+    "description": "",
+    "id": "creates-and-submit-application",
+    "keyword": "Feature",
+    "uri": "classpath:features/submitApplication.feature",
+    "tags": []
+  }
+]

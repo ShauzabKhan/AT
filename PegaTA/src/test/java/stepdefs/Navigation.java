@@ -20,12 +20,14 @@ import org.openqa.selenium.By;
 import org.testng.Assert;
 
 import com.google.inject.Inject;
+import com.p360.ta.utils.UIActions;
 import com.pega.TestEnvironment;
 import com.pega.framework.PegaWebDriver;
 import com.pega.framework.PegaWebElement;
 import com.pega.test.pega_sample_testframework.MyAppBrowser;
 import com.pega.test.pega_sample_testframework.MyAppTestEnvironment;
 
+import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import cucumber.runtime.java.guice.ScenarioScoped;
@@ -64,6 +66,15 @@ public class Navigation {
 
 		Assert.assertNotNull(pwe);
 		//Assert.assertFalse(pegaDriver.findElement(By.xpath(wlAssignment)) == null, "Cannot locate Operator ID on portal");
+	}
+	
+
+	@When("User submits")
+	public void user_submits() {
+		
+		boolean submitSuccessful = UIActions.submitFlowAction(pegaDriver, "");
+		
+		Assert.assertTrue(submitSuccessful);
 	}
 	
 

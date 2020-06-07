@@ -45,11 +45,6 @@ public class SubmitCase {
 
 	}
 
-	@Given("User submits")
-	public void user_submits() {
-	    // Write code here that turns the phrase above into concrete actions
-		System.out.println("User submits pending");
-	}
 
 	@Then("Successful submission message is displayed")
 	public void successful_submission_message_is_displayed() {

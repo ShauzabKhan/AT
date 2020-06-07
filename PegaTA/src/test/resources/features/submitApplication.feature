@@ -8,5 +8,5 @@ Feature: Creates and submit application
 #    And User opens an assignment
     And User fills out the details
     And User submits
-    Then Successful submission message is displayed
+#      Then Successful submission message is displayed
     Then User logs off from portal

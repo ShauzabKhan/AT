@@ -22,6 +22,7 @@ import org.testng.Assert;
 import com.google.inject.Inject;
 import com.pega.TestEnvironment;
 import com.pega.framework.PegaWebDriver;
+import com.pega.framework.PegaWebElement;
 import com.pega.test.pega_sample_testframework.MyAppBrowser;
 import com.pega.test.pega_sample_testframework.MyAppTestEnvironment;
 
@@ -50,17 +51,23 @@ public class CreateCase {
 	
 		String newCase = "//span[@class='menu-item-title'][contains(.,'New project')]";
 		
-		pegaDriver.findElement(By.xpath(newCase)).click();
+		PegaWebElement pwe = pegaDriver.findElement(By.xpath(newCase));
+		
+		pwe.click();
 		
 		String CI = "/html[1]/body[1]/div[3]/main[1]/div[1]/div[1]/form[1]/div[3]/div[1]/section[1]/div[1]/span[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]";
 				//"//input[@type='radio'][contains(@id,'Chief Investigator')]";
 		
-		pegaDriver.findElement(By.xpath(CI)).click();
+		pwe = pegaDriver.findElement(By.xpath(CI));
+		
+		pwe.click();
 		
 		String createCaseBtn = "//button[@title='Create this item']";
 		
-		pegaDriver.findElement(By.xpath(createCaseBtn)).click();
+		pwe = pegaDriver.findElement(By.xpath(createCaseBtn));
+		pwe.click();
 	   
+		Assert.assertNotNull(pwe);
 	
 	
 	}

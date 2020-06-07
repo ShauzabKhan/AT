@@ -90,12 +90,10 @@ public class FillCaseDetails {
 		
 		UIActions.clickRadionButton(pegaDriver, "No", "5a720e98No");
 		
-		UIActions.clickRadionButton(pegaDriver, "No", "7828ec26No");
+		boolean radioBtnClicked = UIActions.clickRadionButton(pegaDriver, "No", "7828ec26No");
 		
-		UIActions.submitFlowAction(pegaDriver, "");
-		
-		Assert.assertTrue(true);
-		
+		Assert.assertTrue(radioBtnClicked);
+
 		
 	}
 

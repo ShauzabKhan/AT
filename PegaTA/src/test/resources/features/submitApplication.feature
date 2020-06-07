@@ -4,7 +4,8 @@ Feature: Creates and submit application
   @TC-02 @smoke @regression
   Scenario: Create case scenario
     Given A User logs in with "research.user1" and "hrarules"
-    And User opens an assignment
+    And User creates a case
+#    And User opens an assignment
     And User fills out the details
     And User submits
     Then Successful submission message is displayed

@@ -47,8 +47,22 @@ public class CreateCase {
 	
 	@Given("User creates a case")
 	public void user_creates_a_case() {
-	    // Write code here that turns the phrase above into concrete actions
-	    System.out.println("Create case pending");
+	
+		String newCase = "//span[@class='menu-item-title'][contains(.,'New project')]";
+		
+		pegaDriver.findElement(By.xpath(newCase)).click();
+		
+		String CI = "/html[1]/body[1]/div[3]/main[1]/div[1]/div[1]/form[1]/div[3]/div[1]/section[1]/div[1]/span[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]";
+				//"//input[@type='radio'][contains(@id,'Chief Investigator')]";
+		
+		pegaDriver.findElement(By.xpath(CI)).click();
+		
+		String createCaseBtn = "//button[@title='Create this item']";
+		
+		pegaDriver.findElement(By.xpath(createCaseBtn)).click();
+	   
+	
+	
 	}
 
 	

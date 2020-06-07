@@ -19,11 +19,16 @@ package stepdefs;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 
+import com.gargoylesoftware.htmlunit.html.xpath.XPathUtils;
 import com.google.inject.Inject;
+import com.p360.ta.utils.UIActions;
 import com.pega.TestEnvironment;
+import com.pega.framework.AutoComplete;
 import com.pega.framework.PegaWebDriver;
+import com.pega.framework.PegaWebElement;
 import com.pega.test.pega_sample_testframework.MyAppBrowser;
 import com.pega.test.pega_sample_testframework.MyAppTestEnvironment;
+import com.pega.util.XPathUtil;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -46,8 +51,52 @@ public class FillCaseDetails {
 
 	@Given("User fills out the details")
 	public void user_fills_out_the_details() {
-	    // Write code here that turns the phrase above into concrete actions
-		System.out.println("User fills out the details pending");
+
+		//UIActions.closeAssignment(pegaDriver);
+		
+		String shortTitle = "//input[contains(@name,'pShortTitle')]";
+		pegaDriver.findElement(By.xpath(shortTitle)).sendKeys("Short title of project");
+		
+		String projectFunder = "//input[contains(@name,'pFunder')]";
+		pegaDriver.findElement(By.xpath(projectFunder)).sendKeys("Royal Marsden");
+		
+		String projectDeputy = "//input[contains(@name,'pProjectDeputy')]";
+		
+		AutoComplete ac = pegaDriver.findAutoComplete(By.xpath(projectDeputy));
+		ac.setValue("Sahul.User");
+		
+		
+		String sponsor = "//input[contains(@name,'pOrganisation')]";
+		
+		ac = pegaDriver.findAutoComplete(By.xpath(sponsor));
+		
+		ac.focus();
+		ac.setValue("GSK");
+		
+		
+		String eudraCTID = "//input[contains(@name,'pEudraCTID')]";
+		pegaDriver.findElement(By.xpath(eudraCTID)).sendKeys("1212-121212-12");
+		
+		
+		UIActions.clickRadionButton(pegaDriver, "Yes", "49648c4bYes");
+		
+		UIActions.clickRadionButton(pegaDriver, "No", "026cf773No");
+	
+		UIActions.clickRadionButton(pegaDriver, "No", "fa53f7dfNo");
+		
+		UIActions.clickRadionButton(pegaDriver, "No", "577285b2No");
+		
+		UIActions.clickRadionButton(pegaDriver, "No", "b7181259No");
+		
+		UIActions.clickRadionButton(pegaDriver, "No", "5a720e98No");
+		
+		UIActions.clickRadionButton(pegaDriver, "No", "7828ec26No");
+		
+		UIActions.submitFlowAction(pegaDriver, "");
+		
+		Assert.assertTrue(true);
+		
+		
 	}
 
 

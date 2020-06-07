@@ -22,6 +22,7 @@ import org.testng.Assert;
 import com.google.inject.Inject;
 import com.pega.TestEnvironment;
 import com.pega.framework.PegaWebDriver;
+import com.pega.framework.PegaWebElement;
 import com.pega.test.pega_sample_testframework.MyAppBrowser;
 import com.pega.test.pega_sample_testframework.MyAppTestEnvironment;
 
@@ -54,18 +55,14 @@ public class Navigation {
 	
 	@Then("User opens an assignment")
 	public void user_opens_an_assignment() {
-		
-		//String wlAssignment = "(//table/tbody/tr[contains(@oaargs,’ASSIGN-WORKLIST’)]";
-		
-		//pegaDriver.findElement(By.xpath(wlAssignment)).click();
-		
+				
 		String wlAssignment = "/html/body/div[4]/main/div/div/div/div/div[2]/form/div[3]/div/section/div/div/div/div/div/div/div/div/div/div[1]/div/div/div/div/div/div/div[2]/table/tbody/tr/td[2]/div/table/tbody/tr[2]/td[2]/div/span/a";
 		
+		PegaWebElement pwe = pegaDriver.findElement(By.xpath(wlAssignment));
 
-		pegaDriver.findElement(By.xpath(wlAssignment)).click();
+		pwe.click();
 
-		
-		Assert.assertFalse(false, "All good");
+		Assert.assertNotNull(pwe);
 		//Assert.assertFalse(pegaDriver.findElement(By.xpath(wlAssignment)) == null, "Cannot locate Operator ID on portal");
 	}
 	

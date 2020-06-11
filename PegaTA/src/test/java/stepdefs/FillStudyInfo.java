@@ -206,8 +206,10 @@ public class FillStudyInfo {
 		
 		UIActions.clickRadionButton(pegaDriver, "No", "0c455e05No");
 		
-		String UpdateQuestionSet = "//button[@class='Strong pzhc pzbutton'and contains(@name,'QuestionSetWrapper')]";
+		String UpdateQuestionSet = "//button[contains(@name,'QuestionSetWrapper') and @class='Strong pzhc pzbutton']";
 		pegaDriver.findElement(By.xpath(UpdateQuestionSet)).click();
+		
+		
 		
 		
 	

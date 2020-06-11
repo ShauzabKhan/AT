@@ -2526,3 +2526,346 @@ Session ID: 2d8e7b74d79296808282554dfc07d9f4
 2020-06-11 10:39:49,191 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //button[@class='Strong pzhc pzbutton'and contains(@name,'QuestionSetWrapper')]
 2020-06-11 10:39:51,124 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
 2020-06-11 10:39:52,648 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 11:17:18,388 INFO  c.p.c.SUTConfig [<init>:61] [PoolService-0] - Setting is.pipeline.run property to false
+2020-06-11 11:17:18,441 INFO  c.p.c.SUTConfig [<init>:81] [PoolService-0] - Debug mode is: true
+2020-06-11 11:17:18,442 INFO  c.p.TestEnvironmentImpl [setLoggerLevel:174] [PoolService-0] - Logger level is set to : INFO
+2020-06-11 11:17:20,478 INFO  c.p.c.u.GetChromeDriver [getChromeDriverForChrome:78] [PoolService-0] - Chrome Version: 83	ChromeDriver version needed:83.0.4103.39
+2020-06-11 11:17:22,652 INFO  c.p.c.u.GetChromeDriver [getChromeDriverForChrome:81] [PoolService-0] - Required chromedriver version is already available. Not attempting to download any new version
+2020-06-11 11:17:35,317 INFO  c.p.d.PegaChromeDriver [initializeDriver:128] [PoolService-0] - Chrome Driver launched successfully
+2020-06-11 11:17:37,257 INFO  c.p.TestEnvironmentImpl [initializeEnvironment:124] [PoolService-0] - Driver is initialised::ChromeDriver: chrome on WINDOWS (614e525a24e1be944bc78eb5923bc322)
+2020-06-11 11:17:37,291 INFO  c.p.BrowserImpl [open:153] [PoolService-0] - Opening the URL
+2020-06-11 11:17:39,994 INFO  c.p.BrowserImpl [open:153] [PoolService-0] - Opening the URL
+2020-06-11 11:17:40,770 INFO  c.p.BrowserImpl [login:63] [PoolService-0] - Logging in the user
+2020-06-11 11:17:40,770 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.id: txtUserID
+2020-06-11 11:17:41,216 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.id: txtPassword
+2020-06-11 11:17:42,055 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.name: pyActivity=Code-Security.Login
+2020-06-11 11:18:04,229 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //span[@class='menu-item-title'][contains(.,'New project')]
+2020-06-11 11:18:06,074 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 11:18:07,468 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 11:18:07,548 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: /html[1]/body[1]/div[3]/main[1]/div[1]/div[1]/form[1]/div[3]/div[1]/section[1]/div[1]/span[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]
+2020-06-11 11:18:07,829 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 11:18:09,058 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 11:18:09,126 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //button[@title='Create this item']
+2020-06-11 11:18:09,635 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 11:18:12,913 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 11:18:13,032 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[contains(@name,'pShortTitle')]
+2020-06-11 11:18:13,585 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[contains(@name,'pFunder')]
+2020-06-11 11:18:21,705 INFO  c.p.f.PegaWebElementImpl [verifyElement:606] [PoolService-0] - By.id: ISnsSelect
+2020-06-11 11:18:21,791 INFO  c.p.f.PegaWebElementImpl [verifyElement:606] [PoolService-0] - By.xpath: //span[@class='match-highlight'][text()='Sahul.User']
+2020-06-11 11:18:22,154 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 11:18:22,411 ERROR c.p.f.WaitHandlerImpl [verifyAndWaitIfThrobberPresent:399] [PoolService-0] - Error while waiting for throbber in verifyAndWaitIfThrobberPresent():stale element reference: element is not attached to the page document
+  (Session info: chrome=83.0.4103.97)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-KJ412AR3', ip: '192.168.225.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64332}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 614e525a24e1be944bc78eb5923bc322
+2020-06-11 11:18:30,267 INFO  c.p.f.PegaWebElementImpl [verifyElement:606] [PoolService-0] - By.id: ISnsSelect
+2020-06-11 11:18:30,309 INFO  c.p.f.PegaWebElementImpl [verifyElement:606] [PoolService-0] - By.xpath: //span[@class='match-highlight'][text()='GSK']
+2020-06-11 11:18:30,605 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 11:18:31,070 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[contains(@name,'pEudraCTID')]
+2020-06-11 11:18:31,431 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //label[@for='49648c4bYes'][contains(.,'Yes')]
+2020-06-11 11:18:31,767 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 11:18:33,077 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 11:18:33,156 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //label[@for='026cf773No'][contains(.,'No')]
+2020-06-11 11:18:33,508 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 11:18:34,833 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 11:18:34,890 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //label[@for='fa53f7dfNo'][contains(.,'No')]
+2020-06-11 11:18:35,148 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 11:18:36,391 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 11:18:36,448 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //label[@for='577285b2No'][contains(.,'No')]
+2020-06-11 11:18:36,774 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 11:18:38,079 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 11:18:38,136 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //label[@for='b7181259No'][contains(.,'No')]
+2020-06-11 11:18:38,345 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 11:18:39,571 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 11:18:39,651 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //label[@for='5a720e98No'][contains(.,'No')]
+2020-06-11 11:18:39,975 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 11:18:41,212 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 11:18:41,289 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //label[@for='7828ec26No'][contains(.,'No')]
+2020-06-11 11:18:41,486 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 11:18:42,720 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 11:18:42,789 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //button[contains(@title,'Complete this assignment')]
+2020-06-11 11:18:45,105 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 11:18:45,290 ERROR c.p.f.WaitHandlerImpl [verifyAndWaitIfThrobberPresent:399] [PoolService-0] - Error while waiting for throbber in verifyAndWaitIfThrobberPresent():stale element reference: element is not attached to the page document
+  (Session info: chrome=83.0.4103.97)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-KJ412AR3', ip: '192.168.225.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64332}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 614e525a24e1be944bc78eb5923bc322
+2020-06-11 11:18:46,680 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 11:18:46,781 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //a[contains(@name, 'StudyInformation')]
+2020-06-11 11:18:47,265 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 11:18:49,460 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 11:18:50,531 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[contains(@name,'InEngland') and @type='checkbox']
+2020-06-11 11:18:50,752 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 11:18:52,006 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 11:18:52,090 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[contains(@name,'InScotland') and @type='checkbox']
+2020-06-11 11:18:52,428 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 11:18:53,672 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 11:18:53,749 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //label[@for='fc105c6bSingle Centre'][contains(.,'Single Centre')]
+2020-06-11 11:18:53,999 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 11:18:55,301 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 11:18:55,372 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[contains(@name,'ResearchTakesPlace')]
+2020-06-11 11:18:56,018 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //label[@for='df29f4caYes'][contains(.,'Yes')]
+2020-06-11 11:18:56,345 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 11:18:57,552 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 11:18:57,606 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //select[contains(@name,'SponsorStatus')]
+2020-06-11 11:18:59,201 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 11:18:59,292 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //select[@id='ec03b462']
+2020-06-11 11:18:59,650 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[@id='313eb85e']
+2020-06-11 11:19:00,097 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[@id='8186c7a9']
+2020-06-11 11:19:00,292 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[@id='de238101']
+2020-06-11 11:19:00,720 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[contains(@name,'Department')]
+2020-06-11 11:19:01,161 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[@id='28a9540d']
+2020-06-11 11:19:01,331 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[@id='c44f5885']
+2020-06-11 11:19:01,905 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[@id='d0f0dce5']
+2020-06-11 11:19:02,392 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[@id='8187046d']
+2020-06-11 11:19:02,719 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[@id='540b266a']
+2020-06-11 11:19:03,078 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[@id='16bb35e8']
+2020-06-11 11:19:03,998 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[@id='432e4522']
+2020-06-11 11:19:04,162 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[@id='6ce2c573']
+2020-06-11 11:19:04,740 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[contains(@name,'OrchidID')]
+2020-06-11 11:19:05,021 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //label[@for='0693de8bWales'][contains(.,'Wales')]
+2020-06-11 11:19:05,390 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 11:19:06,656 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 11:19:06,734 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //label[@for='2bc885eaNo'][contains(.,'No')]
+2020-06-11 11:19:07,055 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 11:19:08,333 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 11:19:08,431 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //label[@for='930341c1Yes'][contains(.,'Yes')]
+2020-06-11 11:19:08,703 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 11:19:09,949 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 11:19:10,000 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //label[@for='c4d708e1No'][contains(.,'No')]
+2020-06-11 11:19:10,206 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 11:19:11,475 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 11:19:11,569 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //label[@for='ac7ad0d3Yes'][contains(.,'Yes')]
+2020-06-11 11:19:11,940 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 11:19:13,153 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 11:19:13,220 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //label[@for='51dda2e6No'][contains(.,'No')]
+2020-06-11 11:19:13,532 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 11:19:14,778 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 11:19:14,831 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //label[@for='fef55ca6No'][contains(.,'No')]
+2020-06-11 11:19:15,011 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 11:19:16,233 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 11:19:16,286 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //label[@for='8627fe56No'][contains(.,'No')]
+2020-06-11 11:19:16,586 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 11:19:17,818 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 11:19:17,875 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[contains(@name,'ActivelyInvolvedResearchDesign') and @value='true']
+2020-06-11 11:19:18,077 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 11:19:19,302 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 11:19:19,353 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //textarea[contains(@name,'ActiveInvolvementDetails')]
+2020-06-11 11:19:19,650 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[@id='09a8bd05']
+2020-06-11 11:19:19,915 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 11:19:21,125 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 11:19:21,192 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[@id='29da07d3']
+2020-06-11 11:19:21,527 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[@id='ac51db74']
+2020-06-11 11:19:21,957 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[@id='0bd0d1fe']
+2020-06-11 11:19:22,255 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[@id='4c3859d3']
+2020-06-11 11:19:22,604 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[@id='28a9540d']
+2020-06-11 11:19:23,162 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[@id='6cc3cb4f']
+2020-06-11 11:19:23,542 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[@id='9a54e818']
+2020-06-11 11:19:23,885 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[@id='560a70a2']
+2020-06-11 11:19:24,271 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[@id='5f07743f']
+2020-06-11 11:19:24,484 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[@id='d5fd1f7d']
+2020-06-11 11:19:25,070 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[@id='5824ec0b']
+2020-06-11 11:19:25,379 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[@id='87ae5ade']
+2020-06-11 11:19:25,708 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //textarea[contains(@name,'SummaryOfStudy')]
+2020-06-11 11:19:26,589 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[@id='f21ce3fd']
+2020-06-11 11:19:26,944 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 11:19:28,264 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 11:19:28,358 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[@id='1bdfb3bb']
+2020-06-11 11:19:28,689 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 11:19:29,962 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 11:19:30,040 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //textarea[@id='a03e9738']
+2020-06-11 11:19:30,963 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //label[@for='38b98719No'][contains(.,'No')]
+2020-06-11 11:19:31,176 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 11:19:32,513 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 11:19:32,596 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //textarea[contains(@name,'ContinuedProvisionArrangements')]
+2020-06-11 11:19:33,565 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //label[@for='161ba8b9No'][contains(.,'No')]
+2020-06-11 11:19:33,889 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 11:19:35,143 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 11:19:35,205 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //textarea[contains(@name,'LowUnderstandingArrangements')]
+2020-06-11 11:19:36,692 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //textarea[contains(@name,'PhysicalSecurityArrangements')]
+2020-06-11 11:19:37,978 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //label[@for='0c455e05No'][contains(.,'No')]
+2020-06-11 11:19:38,292 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 11:19:39,575 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 11:19:39,660 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //button[@class='Strong pzhc pzbutton'and contains(@name,'QuestionSetWrapper')]
+2020-06-11 11:19:41,306 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 11:19:42,861 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 15:19:42,035 INFO  c.p.c.SUTConfig [<init>:61] [PoolService-0] - Setting is.pipeline.run property to false
+2020-06-11 15:19:42,059 INFO  c.p.c.SUTConfig [<init>:81] [PoolService-0] - Debug mode is: true
+2020-06-11 15:19:42,060 INFO  c.p.TestEnvironmentImpl [setLoggerLevel:174] [PoolService-0] - Logger level is set to : INFO
+2020-06-11 15:19:46,731 INFO  c.p.c.u.GetChromeDriver [getChromeDriverForChrome:78] [PoolService-0] - Chrome Version: 83	ChromeDriver version needed:83.0.4103.39
+2020-06-11 15:19:46,732 INFO  c.p.c.u.GetChromeDriver [getChromeDriverForChrome:81] [PoolService-0] - Required chromedriver version is already available. Not attempting to download any new version
+2020-06-11 15:19:55,230 INFO  c.p.d.PegaChromeDriver [initializeDriver:128] [PoolService-0] - Chrome Driver launched successfully
+2020-06-11 15:19:56,543 INFO  c.p.TestEnvironmentImpl [initializeEnvironment:124] [PoolService-0] - Driver is initialised::ChromeDriver: chrome on WINDOWS (c9a606fc3fe46bea0935d6706d903cb5)
+2020-06-11 15:19:56,545 INFO  c.p.BrowserImpl [open:153] [PoolService-0] - Opening the URL
+2020-06-11 15:20:03,909 INFO  c.p.BrowserImpl [open:153] [PoolService-0] - Opening the URL
+2020-06-11 15:20:05,534 INFO  c.p.BrowserImpl [login:63] [PoolService-0] - Logging in the user
+2020-06-11 15:20:05,535 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.id: txtUserID
+2020-06-11 15:20:05,753 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.id: txtPassword
+2020-06-11 15:20:06,128 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.name: pyActivity=Code-Security.Login
+2020-06-11 15:20:20,270 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //span[@class='menu-item-title'][contains(.,'New project')]
+2020-06-11 15:20:22,862 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 15:20:24,070 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 15:20:24,098 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: /html[1]/body[1]/div[3]/main[1]/div[1]/div[1]/form[1]/div[3]/div[1]/section[1]/div[1]/span[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]
+2020-06-11 15:20:24,226 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 15:20:25,412 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 15:20:25,441 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //button[@title='Create this item']
+2020-06-11 15:20:25,654 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 15:20:32,033 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 15:20:32,063 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[contains(@name,'pShortTitle')]
+2020-06-11 15:20:32,305 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[contains(@name,'pFunder')]
+2020-06-11 15:20:39,819 INFO  c.p.f.PegaWebElementImpl [verifyElement:606] [PoolService-0] - By.id: ISnsSelect
+2020-06-11 15:20:39,848 INFO  c.p.f.PegaWebElementImpl [verifyElement:606] [PoolService-0] - By.xpath: //span[@class='match-highlight'][text()='Sahul.User']
+2020-06-11 15:20:40,027 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 15:20:48,846 INFO  c.p.f.PegaWebElementImpl [verifyElement:606] [PoolService-0] - By.id: ISnsSelect
+2020-06-11 15:20:48,886 INFO  c.p.f.PegaWebElementImpl [verifyElement:606] [PoolService-0] - By.xpath: //span[@class='match-highlight'][text()='GSK']
+2020-06-11 15:20:49,082 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 15:20:50,252 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[contains(@name,'pEudraCTID')]
+2020-06-11 15:20:50,412 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //label[@for='49648c4bYes'][contains(.,'Yes')]
+2020-06-11 15:20:50,555 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 15:20:51,731 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 15:20:51,759 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //label[@for='026cf773No'][contains(.,'No')]
+2020-06-11 15:20:51,891 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 15:20:53,076 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 15:20:53,105 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //label[@for='fa53f7dfNo'][contains(.,'No')]
+2020-06-11 15:20:53,230 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 15:20:54,384 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 15:20:54,409 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //label[@for='577285b2No'][contains(.,'No')]
+2020-06-11 15:20:54,530 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 15:20:55,710 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 15:20:55,742 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //label[@for='b7181259No'][contains(.,'No')]
+2020-06-11 15:20:55,870 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 15:20:57,074 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 15:20:57,120 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //label[@for='5a720e98No'][contains(.,'No')]
+2020-06-11 15:20:57,247 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 15:20:58,461 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 15:20:58,523 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //label[@for='7828ec26No'][contains(.,'No')]
+2020-06-11 15:20:58,646 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 15:20:59,849 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 15:20:59,878 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //button[contains(@title,'Complete this assignment')]
+2020-06-11 15:21:01,975 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 15:21:04,240 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 15:21:04,294 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //a[contains(@name, 'StudyInformation')]
+2020-06-11 15:21:04,446 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 15:21:05,862 ERROR c.p.f.WaitHandlerImpl [verifyAndWaitIfThrobberPresent:399] [PoolService-0] - Error while waiting for throbber in verifyAndWaitIfThrobberPresent():stale element reference: element is not attached to the page document
+  (Session info: chrome=83.0.4103.97)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-KJ412AR3', ip: '192.168.225.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52870}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c9a606fc3fe46bea0935d6706d903cb5
+2020-06-11 15:21:07,075 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 15:21:08,108 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[contains(@name,'InEngland') and @type='checkbox']
+2020-06-11 15:21:08,239 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 15:21:09,445 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 15:21:09,473 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[contains(@name,'InScotland') and @type='checkbox']
+2020-06-11 15:21:09,595 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 15:21:10,837 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 15:21:10,876 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //label[@for='fc105c6bSingle Centre'][contains(.,'Single Centre')]
+2020-06-11 15:21:10,998 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 15:21:12,221 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 15:21:12,269 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[contains(@name,'ResearchTakesPlace')]
+2020-06-11 15:21:12,640 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //label[@for='df29f4caYes'][contains(.,'Yes')]
+2020-06-11 15:21:12,759 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 15:21:13,977 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 15:21:14,006 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //select[contains(@name,'SponsorStatus')]
+2020-06-11 15:21:15,277 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 15:21:15,326 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //select[@id='ec03b462']
+2020-06-11 15:21:15,609 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[@id='313eb85e']
+2020-06-11 15:21:15,847 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[@id='8186c7a9']
+2020-06-11 15:21:15,958 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[@id='de238101']
+2020-06-11 15:21:16,108 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[contains(@name,'Department')]
+2020-06-11 15:21:16,361 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[@id='28a9540d']
+2020-06-11 15:21:16,484 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[@id='c44f5885']
+2020-06-11 15:21:16,688 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[@id='d0f0dce5']
+2020-06-11 15:21:16,870 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[@id='8187046d']
+2020-06-11 15:21:17,028 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[@id='540b266a']
+2020-06-11 15:21:17,161 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[@id='16bb35e8']
+2020-06-11 15:21:17,567 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[@id='432e4522']
+2020-06-11 15:21:17,685 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[@id='6ce2c573']
+2020-06-11 15:21:17,860 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[contains(@name,'OrchidID')]
+2020-06-11 15:21:17,985 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //label[@for='0693de8bWales'][contains(.,'Wales')]
+2020-06-11 15:21:18,112 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 15:21:19,269 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 15:21:19,297 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //label[@for='2bc885eaNo'][contains(.,'No')]
+2020-06-11 15:21:19,443 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 15:21:20,667 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 15:21:20,722 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //label[@for='930341c1Yes'][contains(.,'Yes')]
+2020-06-11 15:21:20,888 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 15:21:22,106 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 15:21:22,138 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //label[@for='c4d708e1No'][contains(.,'No')]
+2020-06-11 15:21:22,288 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 15:21:23,470 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 15:21:23,494 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //label[@for='ac7ad0d3Yes'][contains(.,'Yes')]
+2020-06-11 15:21:23,647 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 15:21:24,832 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 15:21:24,857 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //label[@for='51dda2e6No'][contains(.,'No')]
+2020-06-11 15:21:25,002 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 15:21:26,214 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 15:21:26,271 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //label[@for='fef55ca6No'][contains(.,'No')]
+2020-06-11 15:21:26,420 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 15:21:27,611 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 15:21:27,656 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //label[@for='8627fe56No'][contains(.,'No')]
+2020-06-11 15:21:27,778 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 15:21:28,985 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 15:21:29,010 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[contains(@name,'ActivelyInvolvedResearchDesign') and @value='true']
+2020-06-11 15:21:29,162 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 15:21:30,322 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 15:21:30,349 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //textarea[contains(@name,'ActiveInvolvementDetails')]
+2020-06-11 15:21:30,560 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[@id='09a8bd05']
+2020-06-11 15:21:30,703 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 15:21:31,877 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 15:21:31,923 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[@id='29da07d3']
+2020-06-11 15:21:32,055 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[@id='ac51db74']
+2020-06-11 15:21:32,191 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[@id='0bd0d1fe']
+2020-06-11 15:21:32,361 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[@id='4c3859d3']
+2020-06-11 15:21:32,557 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[@id='28a9540d']
+2020-06-11 15:21:32,784 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[@id='6cc3cb4f']
+2020-06-11 15:21:33,006 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[@id='9a54e818']
+2020-06-11 15:21:33,176 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[@id='560a70a2']
+2020-06-11 15:21:33,326 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[@id='5f07743f']
+2020-06-11 15:21:33,489 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[@id='d5fd1f7d']
+2020-06-11 15:21:33,756 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[@id='5824ec0b']
+2020-06-11 15:21:33,875 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[@id='87ae5ade']
+2020-06-11 15:21:34,060 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //textarea[contains(@name,'SummaryOfStudy')]
+2020-06-11 15:21:34,409 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[@id='f21ce3fd']
+2020-06-11 15:21:34,570 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 15:21:35,754 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 15:21:35,780 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //input[@id='1bdfb3bb']
+2020-06-11 15:21:35,911 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 15:21:37,107 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 15:21:37,134 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //textarea[@id='a03e9738']
+2020-06-11 15:21:37,441 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //label[@for='38b98719No'][contains(.,'No')]
+2020-06-11 15:21:37,595 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 15:21:38,825 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 15:21:38,877 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //textarea[contains(@name,'ContinuedProvisionArrangements')]
+2020-06-11 15:21:39,204 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //label[@for='161ba8b9No'][contains(.,'No')]
+2020-06-11 15:21:39,355 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 15:21:40,525 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 15:21:40,549 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //textarea[contains(@name,'LowUnderstandingArrangements')]
+2020-06-11 15:21:41,076 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //textarea[contains(@name,'PhysicalSecurityArrangements')]
+2020-06-11 15:21:41,599 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //label[@for='0c455e05No'][contains(.,'No')]
+2020-06-11 15:21:41,739 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 15:21:42,895 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 15:21:42,923 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.xpath: //button[@title='Save and verify answers above']
+2020-06-11 15:21:44,837 INFO  c.p.s.WaitForDocStateReady [waitForDocStateReady:128] [PoolService-0] - Document currently active, waiting entire document to load
+2020-06-11 15:21:46,056 INFO  c.p.s.Throbber [waitForNoThrobber:53] [PoolService-0] - Throbbing never started
+2020-06-11 15:26:22,558 INFO  c.p.c.SUTConfig [<init>:61] [PoolService-0] - Setting is.pipeline.run property to false
+2020-06-11 15:26:22,589 INFO  c.p.c.SUTConfig [<init>:81] [PoolService-0] - Debug mode is: true
+2020-06-11 15:26:22,589 INFO  c.p.TestEnvironmentImpl [setLoggerLevel:174] [PoolService-0] - Logger level is set to : INFO
+2020-06-11 15:26:25,767 INFO  c.p.c.u.GetChromeDriver [getChromeDriverForChrome:78] [PoolService-0] - Chrome Version: 83	ChromeDriver version needed:83.0.4103.39
+2020-06-11 15:26:25,768 INFO  c.p.c.u.GetChromeDriver [getChromeDriverForChrome:81] [PoolService-0] - Required chromedriver version is already available. Not attempting to download any new version
+2020-06-11 15:26:32,109 INFO  c.p.d.PegaChromeDriver [initializeDriver:128] [PoolService-0] - Chrome Driver launched successfully
+2020-06-11 15:26:33,717 INFO  c.p.TestEnvironmentImpl [initializeEnvironment:124] [PoolService-0] - Driver is initialised::ChromeDriver: chrome on WINDOWS (5c3e6c497ee7e7543eec7ab87eb0f463)
+2020-06-11 15:26:33,720 INFO  c.p.BrowserImpl [open:153] [PoolService-0] - Opening the URL
+2020-06-11 15:26:39,537 INFO  c.p.BrowserImpl [open:153] [PoolService-0] - Opening the URL
+2020-06-11 15:26:41,152 INFO  c.p.BrowserImpl [login:63] [PoolService-0] - Logging in the user
+2020-06-11 15:26:41,152 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.id: txtUserID
+2020-06-11 15:26:42,333 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.id: txtPassword
+2020-06-11 15:26:42,626 INFO  c.p.f.PegaWebDriverImpl [findElement:72] [PoolService-0] - element identification by logic:By.name: pyActivity=Code-Security.Login

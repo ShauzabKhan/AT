@@ -17,7 +17,12 @@
 package stepdefs;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
+
 
 import com.gargoylesoftware.htmlunit.html.xpath.XPathUtils;
 import com.google.inject.Inject;
@@ -50,7 +55,7 @@ public class FillCaseDetails {
 	}
 
 	@Given("User fills out the details")
-	public void user_fills_out_the_details() {
+	public void user_fills_out_the_details() throws InterruptedException {
 
 		//UIActions.closeAssignment(pegaDriver);
 		
@@ -80,6 +85,16 @@ public class FillCaseDetails {
 		
 		UIActions.clickRadionButton(pegaDriver, "Yes", "49648c4bYes");
 		
+		//Actions action=new Actions(pegaDriver);
+    	//action.moveToElement(ac).build().perform();
+		
+	//	JavascriptExecutor jse = (JavascriptExecutor)pegaDriver;
+		//jse.executeScript("window.scrollTo(0,document.body.scrollHeight)");
+		
+		//JavascriptExecutor jse6 = (JavascriptExecutor) pegaDriver;
+	//	jse6.executeScript("window.scrollBy(0,250)", "");
+		
+		
 		UIActions.clickRadionButton(pegaDriver, "No", "026cf773No");
 	
 		UIActions.clickRadionButton(pegaDriver, "No", "fa53f7dfNo");
@@ -90,12 +105,15 @@ public class FillCaseDetails {
 		
 		UIActions.clickRadionButton(pegaDriver, "No", "5a720e98No");
 		
+		
+		
 		boolean radioBtnClicked = UIActions.clickRadionButton(pegaDriver, "No", "7828ec26No");
 		
 		Assert.assertTrue(radioBtnClicked);
-
 		
-	}
+	
+			}
 
+	
 
 }

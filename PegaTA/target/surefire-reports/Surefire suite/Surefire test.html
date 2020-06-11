@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Surefire test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jun 11 15:19:41 IST 2020</td>
+<td>Started on:</td><td>Thu Jun 11 21:59:53 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>124 seconds (124888 ms)</td>
+<tr><td>Total time:</td><td>203 seconds (203843 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,8 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
@@ -76,8 +76,45 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='RunCucumberTest.runScenario()'><b>runScenario</b><br>Test class: RunCucumberTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Create case scenario", "Creates and submit application"</td>
-<td></td>
-<td>124</td>
+<td><div><pre>com.pega.exceptions.PegaElementNotFoundException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(.,&apos;Back&apos;)]&quot;}
+  (Session info: chrome=83.0.4103.97)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-KJ412AR3&apos;, ip: &apos;192.168.225.186&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55730}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: df13b5e4aae320931e52e36db5daf131
+*** Element info: {Using=xpath, value=//a[contains(.,&apos;Back&apos;)]}
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-KJ412AR3&apos;, ip: &apos;192.168.225.186&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: driver.version: unknown
+	at com.pega.framework.WaitHandlerImpl.waitForElementPresence(WaitHandlerImpl.java:217)
+	at com.pega.framework.WaitHandlerImpl.waitForElementPresence(WaitHandlerImpl.java:206)
+	at com.pega.framework.PegaWebDriverImpl.findElement(PegaWebDriverImpl.java:79)
+	at com.pega.framework.PegaWebDriverImpl.findElement(PegaWebDriverImpl.java:97)
+	at stepdefs.FillStudyInfo.fill_the_study_info_details(FillStudyInfo.java:221)
+	at ✽.fill the study info details(classpath:features/submitApplication.feature:11)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1820511871", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1820511871'><pre>com.pega.exceptions.PegaElementNotFoundException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(.,&apos;Back&apos;)]&quot;}
+  (Session info: chrome=83.0.4103.97)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-KJ412AR3&apos;, ip: &apos;192.168.225.186&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55730}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: df13b5e4aae320931e52e36db5daf131
+*** Element info: {Using=xpath, value=//a[contains(.,&apos;Back&apos;)]}
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-KJ412AR3&apos;, ip: &apos;192.168.225.186&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: driver.version: unknown
+	at com.pega.framework.WaitHandlerImpl.waitForElementPresence(WaitHandlerImpl.java:217)
+	at com.pega.framework.WaitHandlerImpl.waitForElementPresence(WaitHandlerImpl.java:206)
+	at com.pega.framework.PegaWebDriverImpl.findElement(PegaWebDriverImpl.java:79)
+	at com.pega.framework.PegaWebDriverImpl.findElement(PegaWebDriverImpl.java:97)
+	at stepdefs.FillStudyInfo.fill_the_study_info_details(FillStudyInfo.java:221)
+	at ✽.fill the study info details(classpath:features/submitApplication.feature:11)
+</pre></div></td>
+<td>203</td>
 <td>RunCucumberTest@192b07fd</td></tr>
 </table><p>
 </body>

@@ -8,7 +8,7 @@ Feature: Creates and submit application
 #    And User opens an assignment
     And User fills out the details
     And User submits
-    
-    Then fill the study info details
+    And fill the study info details
+   
 #      Then Successful submission message is displayed
  #  Then User logs off from portal

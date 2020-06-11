@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="124888" started-at="2020-06-11T09:49:41Z" finished-at="2020-06-11T09:51:46Z">
+  <suite name="Surefire suite" duration-ms="203843" started-at="2020-06-11T16:29:53Z" finished-at="2020-06-11T16:33:17Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:RunCucumberTest@192b07fd]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Surefire test" duration-ms="124888" started-at="2020-06-11T09:49:41Z" finished-at="2020-06-11T09:51:46Z">
+    <test name="Surefire test" duration-ms="203843" started-at="2020-06-11T16:29:53Z" finished-at="2020-06-11T16:33:17Z">
       <class name="RunCucumberTest">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:RunCucumberTest@192b07fd]" name="setUpClass" is-config="true" duration-ms="126" started-at="2020-06-11T15:19:41Z" finished-at="2020-06-11T15:19:41Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:RunCucumberTest@192b07fd]" name="setUpClass" is-config="true" duration-ms="425" started-at="2020-06-11T21:59:53Z" finished-at="2020-06-11T21:59:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:RunCucumberTest@192b07fd]" name="runScenario" duration-ms="124651" started-at="2020-06-11T15:19:41Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-06-11T15:21:46Z">
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:RunCucumberTest@192b07fd]" name="runScenario" duration-ms="203059" started-at="2020-06-11T21:59:54Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-06-11T22:03:17Z">
           <params>
             <param index="0">
               <value>
@@ -27,10 +27,47 @@
               </value>
             </param>
           </params>
+          <exception class="com.pega.exceptions.PegaElementNotFoundException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(.,'Back')]"}
+  (Session info: chrome=83.0.4103.97)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-KJ412AR3', ip: '192.168.225.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55730}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: df13b5e4aae320931e52e36db5daf131
+*** Element info: {Using=xpath, value=//a[contains(.,'Back')]}
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-KJ412AR3', ip: '192.168.225.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.pega.exceptions.PegaElementNotFoundException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(.,'Back')]"}
+  (Session info: chrome=83.0.4103.97)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-KJ412AR3', ip: '192.168.225.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55730}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: df13b5e4aae320931e52e36db5daf131
+*** Element info: {Using=xpath, value=//a[contains(.,'Back')]}
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-KJ412AR3', ip: '192.168.225.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: unknown
+	at com.pega.framework.WaitHandlerImpl.waitForElementPresence(WaitHandlerImpl.java:217)
+	at com.pega.framework.WaitHandlerImpl.waitForElementPresence(WaitHandlerImpl.java:206)
+	at com.pega.framework.PegaWebDriverImpl.findElement(PegaWebDriverImpl.java:79)
+	at com.pega.framework.PegaWebDriverImpl.findElement(PegaWebDriverImpl.java:97)
+	at stepdefs.FillStudyInfo.fill_the_study_info_details(FillStudyInfo.java:221)
+	at ✽.fill the study info details(classpath:features/submitApplication.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.pega.exceptions.PegaElementNotFoundException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:RunCucumberTest@192b07fd]" name="tearDownClass" is-config="true" duration-ms="57" started-at="2020-06-11T15:21:46Z" finished-at="2020-06-11T15:21:46Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:RunCucumberTest@192b07fd]" name="tearDownClass" is-config="true" duration-ms="97" started-at="2020-06-11T22:03:17Z" finished-at="2020-06-11T22:03:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

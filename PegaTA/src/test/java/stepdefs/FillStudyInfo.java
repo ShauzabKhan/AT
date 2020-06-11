@@ -10,7 +10,9 @@ import com.pega.framework.PegaWebDriver;
 import com.pega.test.pega_sample_testframework.MyAppBrowser;
 import com.pega.test.pega_sample_testframework.MyAppTestEnvironment;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
 
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
 import cucumber.runtime.java.guice.ScenarioScoped;
 
@@ -29,7 +31,7 @@ public class FillStudyInfo {
 
 	}
 	
-	@Then ("fill the study info details")
+	@And ("fill the study info details")
 	public void fill_the_study_info_details () throws InterruptedException{
 		
 		String StudyInfo ="//a[contains(@name, 'StudyInformation')]";
@@ -74,39 +76,39 @@ public class FillStudyInfo {
 		pegaDriver.findElement(By.xpath(Contactonbehalf)).sendKeys("Study_Research");
 		
 		String Forename = "//input[@id='8186c7a9']";
-		pegaDriver.findElement(By.xpath(Forename)).sendKeys("MI");
+		pegaDriver.findElement(By.xpath(Forename)).sendKeys("LM10");
 		
 		String Surname = "//input[@id='de238101']";
-		pegaDriver.findElement(By.xpath(Surname)).sendKeys("Akiff");
+		pegaDriver.findElement(By.xpath(Surname)).sendKeys("leo");
 		
 		
 		
-		String Department = "//input[contains(@name,'Department')]";
-		pegaDriver.findElement(By.xpath(Department)).sendKeys("Build and Design");
+	//	String Department = "//input[contains(@name,'Department')]";
+	//	pegaDriver.findElement(By.xpath(Department)).sendKeys("Build and Design");
 		
-		String Instution = "//input[@id='28a9540d']";
-		pegaDriver.findElement(By.xpath(Instution)).sendKeys("P360");
+		//String Instution = "//input[@id='28a9540d']";
+		//pegaDriver.findElement(By.xpath(Instution)).sendKeys("Barca");
 		
 		String Street = "//input[@id='c44f5885']";
-		pegaDriver.findElement(By.xpath(Street)).sendKeys("Hi-tech City");
+		pegaDriver.findElement(By.xpath(Street)).sendKeys("camp nou");
 		
 		String City = "//input[@id='d0f0dce5']";
-		pegaDriver.findElement(By.xpath(City)).sendKeys("Hyderabad");
+		pegaDriver.findElement(By.xpath(City)).sendKeys("Madrid");
 		
 		String Country = "//input[@id='8187046d']";
-		pegaDriver.findElement(By.xpath(Country)).sendKeys("India");
+		pegaDriver.findElement(By.xpath(Country)).sendKeys("spain");
 		
 		String Pincode = "//input[@id='540b266a']";
-		pegaDriver.findElement(By.xpath(Pincode)).sendKeys("500081");
+		pegaDriver.findElement(By.xpath(Pincode)).sendKeys("10****");
 		
 		String Email ="//input[@id='16bb35e8']";
-		pegaDriver.findElement(By.xpath(Email)).sendKeys("akiff.mi@processthreesixty.com");
+		pegaDriver.findElement(By.xpath(Email)).sendKeys("ABC@gmail.com");
 		
 		String Telephone ="//input[@id='432e4522']";
 		pegaDriver.findElement(By.xpath(Telephone)).sendKeys("NA");
 		
 		String Mobile ="//input[@id='6ce2c573']";
-		pegaDriver.findElement(By.xpath(Mobile)).sendKeys("8754879871");
+		pegaDriver.findElement(By.xpath(Mobile)).sendKeys("+191234567");
 		
 		String OrchidID ="//input[contains(@name,'OrchidID')]";
 		pegaDriver.findElement(By.xpath(OrchidID)).sendKeys("2904");
@@ -138,32 +140,32 @@ public class FillStudyInfo {
 		pegaDriver.findElement(By.xpath(CompanyStatistician)).click();
 		
 		String Title ="//input[@id='29da07d3']";
-		pegaDriver.findElement(By.xpath(Title)).sendKeys("HRA");
+		pegaDriver.findElement(By.xpath(Title)).sendKeys("Steppath");
 		
 		String Initials ="//input[@id='ac51db74']";
-		pegaDriver.findElement(By.xpath(Initials)).sendKeys("Basha");
+		pegaDriver.findElement(By.xpath(Initials)).sendKeys("pep");
 		
 		String Surname1 ="//input[@id='0bd0d1fe']";
-		pegaDriver.findElement(By.xpath(Surname1)).sendKeys("Mehaboob");
+		pegaDriver.findElement(By.xpath(Surname1)).sendKeys("guardiola");
 		
 		String Department1 ="//input[@id='4c3859d3']";
-		pegaDriver.findElement(By.xpath(Department1)).sendKeys("Mehaboob");
+		pegaDriver.findElement(By.xpath(Department1)).sendKeys("Mancity");
 		
 		String Institution1 ="//input[@id='28a9540d']";
-		pegaDriver.findElement(By.xpath(Institution1)).sendKeys("Pega_Testing");
+		pegaDriver.findElement(By.xpath(Institution1)).sendKeys("ethihad");
 		
 		String Street1 ="//input[@id='6cc3cb4f']";
-		pegaDriver.findElement(By.xpath(Street1)).sendKeys("Patrika_Nagar");
+		pegaDriver.findElement(By.xpath(Street1)).sendKeys("St12");
 		
 		String City1 ="//input[@id='9a54e818']";
-		pegaDriver.findElement(By.xpath(City1)).sendKeys("Chennai");
+		pegaDriver.findElement(By.xpath(City1)).sendKeys("manchester");
 		
 		String Country1 ="//input[@id='560a70a2']";
-		pegaDriver.findElement(By.xpath(Country1)).sendKeys("India");
+		pegaDriver.findElement(By.xpath(Country1)).sendKeys("UK");
 		
 		
 		String PinCode1 ="//input[@id='5f07743f']";
-		pegaDriver.findElement(By.xpath(PinCode1)).sendKeys("600042");
+		pegaDriver.findElement(By.xpath(PinCode1)).sendKeys("20192*");
 		
 		String Email1 ="//input[@id='d5fd1f7d']";
 		pegaDriver.findElement(By.xpath(Email1)).sendKeys("PegaAt@gmail.com");
@@ -172,7 +174,7 @@ public class FillStudyInfo {
 		pegaDriver.findElement(By.xpath(Telephone1)).sendKeys("NA");
 		
 		String Mobile1 ="//input[@id='87ae5ade']";
-		pegaDriver.findElement(By.xpath(Mobile1)).sendKeys("9500090670");
+		pegaDriver.findElement(By.xpath(Mobile1)).sendKeys("21212121321");
 		
 		String StudySummary ="//textarea[contains(@name,'SummaryOfStudy')]";
 		pegaDriver.findElement(By.xpath(StudySummary)).sendKeys("Health Research Authority (HRA) website");
@@ -204,13 +206,17 @@ public class FillStudyInfo {
 		
 		
 		
-		UIActions.clickRadionButton(pegaDriver, "No", "0c455e05No");
+		//UIActions.clickRadionButton(pegaDriver, "No", "0c455e05No");
+		
+         boolean Radiobutton = UIActions.clickRadionButton(pegaDriver, "No", "0c455e05No");
+		
+		Assert.assertTrue(Radiobutton);
 		
 		String UpdateQuestionSet = "//button[contains(@name,'QuestionSetWrapper') and @class='Strong pzhc pzbutton']";
 		pegaDriver.findElement(By.xpath(UpdateQuestionSet)).click();
 		
 		
-		
+	
 		
 	
 	}

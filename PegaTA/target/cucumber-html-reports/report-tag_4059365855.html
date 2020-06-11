@@ -77,7 +77,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>CucumberWebGui</td>
               <td>1</td>
-            <td>11 Jun 2020, 09:23</td>
+            <td>11 Jun 2020, 10:30</td>
     </tr>
   </tbody>
 </table>
@@ -130,19 +130,19 @@ $(document).ready(function() {
         <tbody>
         <tr>
           <td class="tagname">@TC-02</td>
-          <td      class="passed"    >6</td>
+          <td      class="passed"    >2</td>
+          <td      class="failed"    >1</td>
+          <td     class="skipped"   >2</td>
           <td >0</td>
           <td >0</td>
-          <td >0</td>
-          <td >0</td>
-          <td class="total">6</td>
+          <td class="total">5</td>
 
-          <td  class="passed"    >1</td>
           <td >0</td>
+          <td  class="failed"    >1</td>
           <td class="total">1</td>
 
-          <td class="duration" data-value="91686045000">1:31.686</td>
-          <td class="passed">Passed</td>
+          <td class="duration" data-value="35216403700">35.216</td>
+          <td class="failed">Failed</td>
         </tr>
         </tbody>
 
@@ -186,12 +186,12 @@ $(document).ready(function() {
       </div>
 
   
-  <span class="lead-duration duration">1:31.686</span>
+  <span class="lead-duration duration">35.216</span>
 
 
-    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
+    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
     
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Scenario</span>
   <span class="name">Create case scenario</span>
   
@@ -202,7 +202,7 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-1" class="collapse collapsable-details ">
+  <div id="element-1" class="collapse collapsable-details  in ">
     
   <div class="inner-level hooks-element-before">
         <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-2">
@@ -223,7 +223,7 @@ $(document).ready(function() {
             <span class="keyword indention">Before</span>
                           <span class="location name">MyAppTestEnvironment.setUp(Scenario)</span>
                         
-  <span class="lead-duration duration">9.552</span>
+  <span class="lead-duration duration">19.348</span>
 
           </div>
 
@@ -241,9 +241,9 @@ $(document).ready(function() {
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-3">
+    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-3">
     
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
   
@@ -253,14 +253,14 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-3" class="inner-level collapse collapsable-details ">
+  <div id="steps-3" class="inner-level collapse collapsable-details  in ">
           <div class="step">
         
 <div class="brief passed">
   <span class="keyword indention">Given</span>
-  <span class="name">A User logs in with &quot;<span class="argument">research.user14@hra.com</span>&quot; and &quot;<span class="argument">hrarules</span>&quot;</span>
+  <span class="name">A User logs in with &quot;<span class="argument">research.user1</span>&quot; and &quot;<span class="argument">hrarules</span>&quot;</span>
   
-  <span class="lead-duration duration">5.041</span>
+  <span class="lead-duration duration">7.469</span>
 
 </div>
 
@@ -285,7 +285,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">User creates a case</span>
   
-  <span class="lead-duration duration">13.158</span>
+  <span class="lead-duration duration">7.539</span>
 
 </div>
 
@@ -306,17 +306,52 @@ $(document).ready(function() {
       </div>
           <div class="step">
         
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">And</span>
   <span class="name">User fills out the details</span>
   
-  <span class="lead-duration duration">26.245</span>
+  <span class="lead-duration duration">20.206</span>
 
 </div>
 
         
 
         
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-4">
+          <a>org.openqa.selenium.ElementNotInteractableException:</a>
+      </div>
+      <div id="msg-4" class="collapse collapsable-details  in ">
+        <pre>org.openqa.selenium.ElementNotInteractableException: element not interactable: element has zero size
+  (Session info: chrome=83.0.4103.97)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-KJ412AR3', ip: '192.168.225.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63999}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 69148f5870f7efd67d3e8774f89bb312
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.pega.framework.PegaWebElementImpl.click(PegaWebElementImpl.java:484)
+	at com.pega.framework.PegaWebElementImpl.click(PegaWebElementImpl.java:386)
+	at com.p360.ta.utils.UIActions.clickRadionButton(UIActions.java:15)
+	at stepdefs.FillCaseDetails.user_fills_out_the_details(FillCaseDetails.java:83)
+	at &#10045;.User fills out the details(classpath:features/submitApplication.feature:9)
+</pre>
+      </div>
+    </div>
+  </div>
 
 
         
@@ -331,11 +366,11 @@ $(document).ready(function() {
       </div>
           <div class="step">
         
-<div class="brief passed">
+<div class="brief skipped">
   <span class="keyword indention">And</span>
   <span class="name">User submits</span>
   
-  <span class="lead-duration duration">2.948</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -356,36 +391,11 @@ $(document).ready(function() {
       </div>
           <div class="step">
         
-<div class="brief passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">fill the study info details</span>
-  
-  <span class="lead-duration duration">42.348</span>
-
-</div>
-
-        
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-        
-
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
+<div class="brief skipped">
   <span class="keyword indention">Then</span>
   <span class="name">User logs off from portal</span>
   
-  <span class="lead-duration duration">1.943</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -410,7 +420,7 @@ $(document).ready(function() {
 
     
   <div class="inner-level hooks-element-after">
-        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-4">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-5">
       
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -422,13 +432,13 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="after-4" class="inner-level collapse collapsable-details ">
+    <div id="after-5" class="inner-level collapse collapsable-details ">
               <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
                           <span class="location name">MyAppTestEnvironment.tearDown(Scenario)</span>
                         
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">2.600</span>
 
           </div>
 
@@ -438,6 +448,21 @@ $(document).ready(function() {
                     
 
           
+    <div class="embeddings inner-level">
+                <div class="embedding indention">
+        <div data-toggle="collapse" data-target="#embedding-6" class="collapsable-control">
+      <a>Attachment 1 (png)</a>
+      <a href="embeddings/embedding_1491040976.png" download target="_blank">
+        <span class="download-button glyphicon glyphicon-download-alt"></span>
+      </a>
+    </div>
+    <div id="embedding-6" class="collapse collapsable-details">
+      <div class="embedding-content">
+        <img src="embeddings/embedding_1491040976.png">
+      </div>
+    </div>
+  </div>
+        </div>
   
         </div>
           </div>

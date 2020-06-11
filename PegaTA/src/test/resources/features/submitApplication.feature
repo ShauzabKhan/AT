@@ -3,11 +3,10 @@ Feature: Creates and submit application
   #author : shauzab.khan
   @TC-02 @smoke @regression
   Scenario: Create case scenario
-    Given A User logs in with "research.user14@hra.com" and "hrarules"
+    Given A User logs in with "research.user1" and "hrarules"
     And User creates a case
 #    And User opens an assignment
     And User fills out the details
     And User submits
-     Then fill the study info details
 #      Then Successful submission message is displayed
-   Then User logs off from portal
+    Then User logs off from portal

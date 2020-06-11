@@ -35,7 +35,7 @@ public class FillStudyInfo {
 		String StudyInfo ="//a[contains(@name, 'StudyInformation')]";
 		pegaDriver.findElement(By.xpath(StudyInfo)).click();
 		
-		Thread.sleep(3000);
+		Thread.sleep(1000);
 		
 		String CheckboxforEngland = "//input[contains(@name,'InEngland') and @type='checkbox']";
 		

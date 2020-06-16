@@ -9,6 +9,7 @@ Feature: Creates and submit application
     And User fills out the details
     And User submits
     And fill the study info details
+    And User attach document
    
 #      Then Successful submission message is displayed
  #  Then User logs off from portal

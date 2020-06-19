@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="126179" started-at="2020-06-16T07:28:33Z" finished-at="2020-06-16T07:30:39Z">
+  <suite name="Surefire suite" duration-ms="144113" started-at="2020-06-19T11:11:47Z" finished-at="2020-06-19T11:14:11Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:RunCucumberTest@192b07fd]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Surefire test" duration-ms="126179" started-at="2020-06-16T07:28:33Z" finished-at="2020-06-16T07:30:39Z">
+    <test name="Surefire test" duration-ms="144113" started-at="2020-06-19T11:11:47Z" finished-at="2020-06-19T11:14:11Z">
       <class name="RunCucumberTest">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:RunCucumberTest@192b07fd]" name="setUpClass" is-config="true" duration-ms="140" started-at="2020-06-16T12:58:33Z" finished-at="2020-06-16T12:58:33Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:RunCucumberTest@192b07fd]" name="setUpClass" is-config="true" duration-ms="157" started-at="2020-06-19T16:41:47Z" finished-at="2020-06-19T16:41:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:RunCucumberTest@192b07fd]" name="runScenario" duration-ms="125966" started-at="2020-06-16T12:58:33Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-06-16T13:00:39Z">
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:RunCucumberTest@192b07fd]" name="runScenario" duration-ms="143848" started-at="2020-06-19T16:41:47Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-06-19T16:44:11Z">
           <params>
             <param index="0">
               <value>
@@ -30,7 +30,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:RunCucumberTest@192b07fd]" name="tearDownClass" is-config="true" duration-ms="22" started-at="2020-06-16T13:00:39Z" finished-at="2020-06-16T13:00:39Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:RunCucumberTest@192b07fd]" name="tearDownClass" is-config="true" duration-ms="44" started-at="2020-06-19T16:44:11Z" finished-at="2020-06-19T16:44:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

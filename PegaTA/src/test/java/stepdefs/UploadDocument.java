@@ -85,6 +85,10 @@ String Version = "//input[@id='9facf4ef']";
 		
 	//	pegaDriver.findElement(By.xpath(AttachmentsubmitButton)).click();
 		
+		//button[text()='Submit project']
+		
+
+		
 PegaWebElement Element = pegaDriver.findElement(By.xpath(AttachmentsubmitButton));
 		
 Element.click();

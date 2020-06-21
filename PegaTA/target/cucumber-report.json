@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-06-19T11:11:48.350Z",
+        "start_timestamp": "2020-06-21T12:00:45.170Z",
         "before": [
           {
             "result": {
-              "duration": 11306556900,
+              "duration": 18746038200,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 270200,
+              "duration": 303700,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8759099200,
+              "duration": 8249864800,
               "status": "passed"
             },
             "line": 6,
@@ -57,7 +57,7 @@
           },
           {
             "result": {
-              "duration": 9025517400,
+              "duration": 7437829400,
               "status": "passed"
             },
             "line": 7,
@@ -69,7 +69,7 @@
           },
           {
             "result": {
-              "duration": 29618399900,
+              "duration": 29465783000,
               "status": "passed"
             },
             "line": 9,
@@ -81,7 +81,7 @@
           },
           {
             "result": {
-              "duration": 3649012600,
+              "duration": 3259088900,
               "status": "passed"
             },
             "line": 10,
@@ -93,7 +93,7 @@
           },
           {
             "result": {
-              "duration": 55606961300,
+              "duration": 49397333800,
               "status": "passed"
             },
             "line": 11,
@@ -105,13 +105,25 @@
           },
           {
             "result": {
-              "duration": 25370792700,
+              "duration": 15699456800,
               "status": "passed"
             },
             "line": 12,
             "name": "User attach document",
             "match": {
               "location": "UploadDocument.user_attach_document()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3189568600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Submit the project",
+            "match": {
+              "location": "ProjectSubmission.Submit_the_project()"
             },
             "keyword": "And "
           }
